@@ -1,0 +1,14 @@
+{
+  "db": {
+    "uri": null,
+    "reconnect": true
+  },
+  "server": {
+    "port": 80,
+    "ip": null
+  },
+  "session": {
+    "secret": "nvasdejkNNmaszdrpoui234hjkasldehfJKNMASJKLvnmawsoui",
+    "expiration":1440000
+  }
+}

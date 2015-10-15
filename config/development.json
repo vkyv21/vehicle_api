@@ -1,0 +1,10 @@
+{
+  "db": {
+    "uri": "mysql://root:root@localhost/Vehicle_mob",
+    "reconnect": true
+  },
+  "server": {
+    "baseurl": "http://localhost:9000",
+    "port": 9000
+  }
+}

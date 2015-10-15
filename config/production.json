@@ -1,0 +1,10 @@
+{
+  "db": {
+    "uri": "mysql://root:root@localhost/database",
+    "reconnect": true
+  },
+  "server": {
+    "port": 80,
+    "ip": "127.0.0.1"
+  }
+}
