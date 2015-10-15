@@ -17,6 +17,14 @@ module.exports = function(sequilize, DataType)
 			{
 				type: DataType.STRING
 			},
+			fb_id:{
+				type: DataType.STRING,
+				unique: true
+			},
+			gplus_id:{
+				type: DataType.STRING,
+				unique: true
+			},
 			email:
 			{
 				type: DataType.STRING,

@@ -10,9 +10,6 @@ var md5 = require('md5');
 var _ = require('lodash');
 var passwordHash = require('password-hash');
 module.exports = function(req, res){
-    // function for decode base64 image
-    var filename = null;
-    var lastImage = null;
     var updateQuery = {};
     //validation for User Email
     if(req.body.email)

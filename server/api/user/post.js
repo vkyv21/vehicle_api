@@ -34,7 +34,7 @@ module.exports = function(req, res){
     // creating new user
     User.create(userDto.unmarshal(req.body))
     .then(function(user){
-            return response(res, data, "user created", 200);
+            return response(res, user, "user created", 200);
         }).catch(function(err) {
             return response(res, err, err.message, 500);
         });

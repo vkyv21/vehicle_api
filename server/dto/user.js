@@ -15,6 +15,7 @@ module.exports =
 				email: usermodel.email,
 				fb_id: usermodel.fb_id,
 				gplus_id: usermodel.gplus_id,
+				password: usermodel.password,
 				createdAt: usermodel.createdAt,
 				updatedAt: usermodel.updatedAt,
 			});
@@ -29,6 +30,8 @@ module.exports =
 			fname: jsonData.fname,
 			lname: jsonData.lname,
 			email: jsonData.email,
+			fb_id: jsonData.fb_id,
+			gplus_id: jsonData.gplus_id,
 			password: passwordHash.generate(jsonData.password)
 		};
 
